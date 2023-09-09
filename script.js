@@ -8,6 +8,12 @@ const cssCode = document.getElementById('css-code');
 radiusInput.addEventListener('input', () => {
     const radius = radiusInput.value;
     box.style.borderRadius = `${radius}px`;
-    updateCssCode();
+    updateCSSCode();
 });
 
+
+sizeInput.addEventListener('input', () => {
+    const color = colorInput.value;
+    box.style.backgroundColor = color; 
+    updateCSSCode();
+});
