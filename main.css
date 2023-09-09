@@ -1,6 +1,40 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    background: url(https://media.tenor.com/9PXAukd2ToAAAAAC/airbus-plane.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: #077381;
+    border-radius: 0;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.css-output {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#css-code {
+    background-image: url();
+    padding: 10px;
+    border-radius: 5px;
+}
