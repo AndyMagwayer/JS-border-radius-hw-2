@@ -19,8 +19,9 @@ sizeInput.addEventListener('input', () => {
 });
 
 
-colorInput.addEventListener('input' , ()) => {
+colorInput.addEventListener('input' , () => {
     const color = color.value;
     box.style.backgroundColor = color;
     updateCSSCode();
-}
+});
+
