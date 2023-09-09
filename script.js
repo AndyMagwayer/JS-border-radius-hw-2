@@ -17,3 +17,10 @@ sizeInput.addEventListener('input', () => {
     box.style.backgroundColor = color; 
     updateCSSCode();
 });
+
+
+colorInput.addEventListener('input' , ()) => {
+    const color = color.value;
+    box.style.backgroundColor = color;
+    updateCSSCode();
+}
