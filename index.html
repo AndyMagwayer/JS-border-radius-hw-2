@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
-
-
+    <div class="container">
+        <div id="box"></div>
+      </div>
+      
+      <div class="controls">
+        <label for="radius-input">Border Radius:</label>
+        <input type="range" id="radius-input" min="0" max="100" value="0">
+      
+        <label for="size-input">Size (px):</label>
+        <input type="number" id="size-input" value="0">
+      
+        <label for="color-input">Color:</label>
+        <input type="color" id="color-input">
+      </div>
+      
+      <div class="css-output">
+        <pre id="css-code"></pre>
+      </div>
     <script src="main.css"></script>
 </body>
 </html>
