@@ -27,3 +27,6 @@ this project are will usefull who started js and want to have practice on it
    - The updateCSSCode() function is created to update the CSS code in the "css-code" block based on the current radius, size, and color values. A CSS code string is created and assigned to the textContent property of the "css-code" element.
 
 Thus, the website allows the user to change the radius, size, and color of the div, and displays the corresponding CSS code for these changes.
+
+## Описание функциональности сайта: 
+
