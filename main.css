@@ -12,43 +12,42 @@ AndyMagwayer
 -*-~*~-*-*-~*~-*-*-~*~* |
 - */
 
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: url(https://media.tenor.com/9PXAukd2ToAAAAAC/airbus-plane.gif) no-repeat center center fixed;
+    background: url(https://global.discourse-cdn.com/infiniteflight/original/4X/e/f/5/ef5b337f9ba00fcb413f6777e77ffff1d7828e89.gif) no-repeat center center fixed;
     background-size: cover;
-}
-
+  }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-
-#box {
+  }
+  
+  #box {
     width: 200px;
     height: 200px;
-    background-color: #077381;
+    background-color: #09708f;
     border-radius: 0;
-}
-
-.controls {
+  }
+  
+  .controls {
     margin-top: 20px;
     text-align: center;
-}
-
-.css-output {
+  }
+  
+  .css-output {
     margin-top: 20px;
     text-align: center;
-}
-
-#css-code {
-    background-image: url();
+  }
+  
+  #css-code {
+    background-color: #f1f1f1;
     padding: 10px;
     border-radius: 5px;
-}
+  }

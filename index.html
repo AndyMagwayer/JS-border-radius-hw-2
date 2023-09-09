@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Border-Radius | Magamed 2</title>
+    <title>Border-Radius | Magamed 2</title> 
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -12,19 +12,25 @@
       </div>
       
       <div class="controls">
-        <label for="radius-input">Border Radius:</label>
-        <input type="range" id="radius-input" min="0" max="100" value="0">
-      
-        <label for="size-input">Size (px):</label>
-        <input type="number" id="size-input" value="0">
-      
-        <label for="color-input">Color:</label>
-        <input type="color" id="color-input">
+        <label for="top-left-input">Top Left:</label>
+        <input type="number" id="top-left-input" value="0">
+        
+        <label for="top-right-input">Top Right:</label>
+        <input type="number" id="top-right-input" value="0">
+        
+        <label for="bottom-right-input">Bottom Right:</label>
+        <input type="number" id="bottom-right-input" value="0">
+        
+        <label for="bottom-left-input">Bottom Left:</label>
+        <input type="number" id="bottom-left-input" value="0">
       </div>
       
       <div class="css-output">
         <pre id="css-code"></pre>
       </div>
-    <script src="main.css"></script>
+
+      <script src="script.js"></script>
 </body>
 </html>
+
+   
