@@ -5,7 +5,6 @@ this project are will usefull who started js and want to have practice on it
 
 ## Deploy: https://js-border-radius-hw-2.netlify.app
 
-
 ## Website functionality description:
 
 
