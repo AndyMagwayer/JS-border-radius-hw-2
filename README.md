@@ -13,6 +13,8 @@ this project are will usefull who started js and want to have practice on it
    - A control section is created (a div with the class "controls"), containing a slider for changing the radius (an input with the id "radius-input"), an input field for changing the size (an input with the id "size-input"), and a color picker (an input with the id "color-input").
    - A block for displaying the CSS code is created (a div with the class "css-output"), containing a pre element with the id "css-code".
 
+
+
 2. CSS:
    - Styles are applied to the container to center it vertically and horizontally.
    - Styles are applied to the div with the id "box", which will be modified. The initial radius value is set to 0, and the background color is set to #000.
