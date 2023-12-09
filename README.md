@@ -13,6 +13,7 @@ this project are will usefull who started js and want to have practice on it
    - A block for displaying the CSS code is created (a div with the class "css-output"), containing a pre element with the id "css-code".
 
 <br>
+<br>
 
 2. CSS:
    - Styles are applied to the container to center it vertically and horizontally.
